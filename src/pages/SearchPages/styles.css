@@ -1,0 +1,170 @@
+ body{
+  background-color: white;
+}
+body::after {
+  content: "";
+  position: absolute;
+  background-color: #f0f0f5;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 16rem;
+  z-index: -1;
+}
+
+#page-search-results .content {
+  width: 100%;
+  height: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+  
+#page-search-results .content header {
+  width: 100%;
+  display: flex;
+  margin-top: 48px;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+#page-search-results .content header #link{
+  text-decoration: none;
+}
+  
+#page-search-results .content header span{
+  display: flex;
+  margin-left: 645px;
+  color: var(--title-color);
+}
+  
+#page-search-results .content header span:hover{
+  transition: 0.3s ;
+  color: #483D8B;
+}
+  
+  
+#page-search-results .content header span #voltar{
+  font-size: 21px;
+  margin-right: 9px;
+  color: #2FB86E;
+}
+
+#page-search-results .content h4{
+  margin-top: 30px;
+  font-weight: normal;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;  
+}
+
+#page-search-results .content .caps {
+  font-weight: bold;
+}
+#page-search-results .content main{
+  margin: 35px 0;
+}
+
+#page-search-results .content main .cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+#page-search-results .content main .card img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px 6px 0 0;
+}
+
+#page-search-results .content main .card h1{
+  margin-top: 10px;
+  font-size: 36px;
+  line-height: 41px;
+  color: #322153;
+}
+
+#page-search-results .content main .card .map {
+  display: flex;
+  text-decoration: none;
+  margin-top: 5px;
+  align-items: center;
+  font-size: 20px;
+  color: #0000FF;
+}
+
+#page-search-results .content main .card .map span { 
+  margin: 8px -8px 0 0;
+}
+
+#page-search-results .content main .card .map:hover {
+  color: #FF0000;
+  transition: 0.3s;
+}
+
+#page-search-results .content main .card .items { 
+  margin-top: 7px;
+  font-family: Roboto;
+  font-weight: normal;
+  display: inline-grid;
+  padding: 2px 5px;
+  font-size: 16px !important;
+  text-align: center !important;
+  line-height: 22px;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  color: #000 !important;
+  background-color: #f0f0f5;
+  margin-right: 7px;
+  justify-content: center !important;
+}
+
+
+.mailwhats {
+  display: flex;
+  margin-top: 4px;
+}
+
+#page-search-results .content main .card .email {
+  display: flex;
+  margin-top: 4px;
+  margin-right: 9px;
+  font-size: 20px;
+  align-items: center;
+  color: 	#808080;
+  text-decoration: none;
+}
+
+#page-search-results .content main .card .email span {
+  margin: 5px 5px 0 0;
+}
+
+#page-search-results .content main .card .email:hover {
+  color:	#FF8C00;
+  transition: 0.3s;
+}
+
+#page-search-results .content main .card .whats {
+  display: flex;
+  text-decoration: none;
+  color: #808080;
+  font-size: 20px;
+  align-items: center;
+}
+
+#page-search-results .content main .card .whats span {
+  margin: 8px -10px 0 9px;
+}
+
+#page-search-results .content main .card .whats:hover {
+  color: var(--primary-color);
+  transition: 0.3s;
+}

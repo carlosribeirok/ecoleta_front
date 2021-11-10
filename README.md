@@ -2,7 +2,7 @@
 ## _Front-End_
 
 **Do Bootcamp da Rocketseat,**
-Ecoleta é um projeto que te possibilita cadastrar e buscar por pontos de coleta. Esses pontos trabalham com o recolhimento de resíduos. A preservação da natureza é responsabilidade de todos. 
+Ecoleta é um projeto que te possibilita cadastrar e buscar por pontos de coleta. Esses pontos trabalham com o recolhimento de resíduos.
 
 ## Tecnologias
 
